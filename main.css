@@ -1,0 +1,22 @@
+.block__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  background-color: #000000;
+}
+.block__field {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 30px 15px;
+  background-color: #ffffff;
+}
+.disabled {
+  pointer-events: none;
+  background-color: grey;
+}
